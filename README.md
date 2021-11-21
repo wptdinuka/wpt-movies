@@ -1,8 +1,8 @@
-# Next Markdown Blog
+# WPT-Movies
 
-Simple static blog using markdown and Next.js
+Simple static blog using Next.js with API Data Fetching
 
-[DEMO](https://next-markdown-blog-drab.vercel.app/)
+
 
 ## Usage
 
