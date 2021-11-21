@@ -1,4 +1,4 @@
-# Next Markdown Blog
+# WPT-Movies
 
 Simple static blog using Next.js with API Data Fetching
 
