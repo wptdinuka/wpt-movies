@@ -1,0 +1,182 @@
+//Header
+///////////////////////////////////////////////////////////////////////////////////
+
+.header {
+  text-align: center;
+  background-color: #0070f3;
+  h1 {
+    padding-top: 20px;
+    margin: 0;
+    line-height: 1.15;
+    font-size: 5rem;
+    color: white;
+  }
+
+  h2 {
+    margin: 0;
+    padding-bottom: 20px;
+  }
+}
+
+//Navbar
+///////////////////////////////////////////////////////////////////////////////////
+
+.navbar {
+  width: 100%;
+  background-color: #0070f3;
+  overflow: auto;
+
+  li {
+    float: left;
+    padding: 12px;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 600;
+    width: 25%;
+    text-align: center;
+    border-collapse: collapse;
+
+    :hover {
+      background-color: rgba(white, 0.7);
+      padding: 12px 20px;
+      transition: 0.4s;
+    }
+
+    :active {
+      background-color: #0070f3;
+    }
+  }
+}
+
+//Titles
+//////////////////////////////////////////////////////////////////////////////////
+
+.title {
+  font-size: 45px;
+  text-align: center;
+  border: black 3px solid;
+  padding: 1% 30%;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    width: 200%;
+    margin-top: 0;
+  }
+}
+
+// Polular
+//////////////////////////////////////////////////////////////////////////////////
+
+.topmovies {
+  border: black 3px solid;
+  padding: 1% 30%;
+  margin-top: 20px;
+  list-style: none;
+
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  h2 {
+    color: rgb(161, 38, 38);
+  }
+
+  :hover {
+    background-color: #0070f3;
+    padding: 10px 150px;
+    transition: 0.4s;
+    color: white;
+  }
+}
+
+//Now-playing
+///////////////////////////////////////////////////////////////////////////////////@at-root
+
+.nowplaying {
+  border: black 3px solid;
+  padding: 1% 40%;
+  margin-top: 20px;
+
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  h2 {
+    color: rgb(0, 50, 97);
+  }
+
+  :hover {
+    background-color: #0070f3;
+    padding: 10px 150px;
+    transition: 0.4s ease-in-out;
+    color: white;
+  }
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  background-color: #0070f3;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 500px;
+  justify-content: center;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
