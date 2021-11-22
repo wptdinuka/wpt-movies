@@ -2,6 +2,7 @@
 
 Simple static blog using Next.js with API Data Fetching
 
+Preview="https://wpt-movie.vercel.app/"
 
 
 ## Usage
