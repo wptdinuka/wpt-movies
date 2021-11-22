@@ -7,7 +7,7 @@ function Home( props ) {
   
   
 
-  console.log("popular",popular)
+
 
   return (
 
